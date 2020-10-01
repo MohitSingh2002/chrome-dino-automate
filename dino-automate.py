@@ -3,12 +3,12 @@ from PIL import Image, ImageGrab
 import time
 
 
-def jump(key):
-    for i in range(300, 415):
-        for j in range(410, 563):
-            if key[i, j] < 100:
-                pyautogui.keyDown("down")
-                return
+# def jump(key):
+#     for i in range(300, 415):
+#         for j in range(410, 563):
+#             if key[i, j] < 100:
+#                 pyautogui.keyDown("down")
+#                 return
 
     for i in range(300, 415):
         for j in range(563, 650):
